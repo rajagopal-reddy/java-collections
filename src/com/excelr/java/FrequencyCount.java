@@ -16,8 +16,13 @@ public class FrequencyCount {
 
         System.out.println(fruits);
 
+        int count = 0;
+
         for (var value: fruits.entrySet()) {
+
             System.out.println(value.getKey() + " = " + value.getValue());
+            count++;
         }
+        System.out.println("Number of Words: " + count);
     }
 }
