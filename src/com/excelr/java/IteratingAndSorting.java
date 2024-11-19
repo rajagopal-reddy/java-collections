@@ -1,5 +1,6 @@
 package com.excelr.java;
 
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.LinkedList;
 
@@ -27,5 +28,7 @@ public class IteratingAndSorting {
             System.out.println(name);
         }
 
+        Collections.sort(names);
+        System.out.println(names);
     }
 }
